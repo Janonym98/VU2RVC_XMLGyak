@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE konyvek SYSTEM "konyvek.dtd">
+
+<konyvek>
+    <konyv id="1" mufaj="informatika">
+        <cim nev="Android zsebkönyv" />
+        <kiadas evjarat="2019" />
+        <kiado nev="BBS-INFO Kft." />
+        <szerzo nev="Bártfai Barnabás" />
+    </konyv>
+    <konyv id="2" mufaj="informatika">
+        <cim nev="Algoritmusok" />
+        <kiadas evjarat="1998" />
+        <kiado nev="BBS-INFO Kft." />
+        <szerzo nev="Rónyai Lajos" />
+    </konyv>
+    <konyv id="3" mufaj="informatika">
+        <cim nev="Excel haladóknak" />
+        <kiadas evjarat="2012" />
+        <kiado nev="BBS-INFO Kft." />
+        <szerzo nev="Bártfai Barnabás" />
+    </konyv>
+</konyvek>

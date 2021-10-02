@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+    <cim>XML</cim>
+    <hallgatok>
+        <hallgato>
+            <nev>Csurgai Ádám János</nev>
+            <lakcim>Otthon utca 3.</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>Miskolc</helyszin>
+    <eloado>
+        <nev>Dr. Bednarik László</nev>
+        <adoszam>21454521</adoszam>
+        <lakcim>Egyetem utca 2.</lakcim>
+    </eloado>
+    <datum>2021.09.21</datum>
+</konferencia>
