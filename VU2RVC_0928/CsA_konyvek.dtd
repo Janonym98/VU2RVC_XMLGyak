@@ -3,7 +3,7 @@
 <!ELEMENT konyvek (konyv)*>
 <!ELEMENT konyv (cim,kiadas,kiado,szerzo, abstract?)>
 
-    <!ATTLIST konyv id to $REQUIRED>
+    <!ATTLIST konyv id ID $REQUIRED>
     <!ELEMENT cim (#PCDATA)>
     <!ELEMENT kiadas (#PCDATA)>
     <!ELEMENT kiado (#PCDATA)>
