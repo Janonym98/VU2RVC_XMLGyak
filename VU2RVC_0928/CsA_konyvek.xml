@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE konyvek SYSTEM "konyvek.dtd">
-
-<konyvek>
-    <konyv id="1" mufaj="informatika">
-        <cim nev="Android zsebkönyv" />
-        <kiadas evjarat="2019" />
-        <kiado nev="BBS-INFO Kft." />
-        <szerzo nev="Bártfai Barnabás" />
+<books>
+    <konyv id="1">
+        <cim>Windows10 mindenkinek</cim>
+        <kiadasi_ev>2016</kiadasi_ev>
+        <kiado>BBS-INFO KÖNYVK. ÉS INFORM. KFT.</kiado>
+        <szerzo>Bártfai Barnabás</szerzo>
     </konyv>
-    <konyv id="2" mufaj="informatika">
-        <cim nev="Algoritmusok" />
-        <kiadas evjarat="1998" />
-        <kiado nev="BBS-INFO Kft." />
-        <szerzo nev="Rónyai Lajos" />
+    <konyv id="2">
+        <cim>DarkNet - avagy az internet sötét oldala</cim>
+        <kiadasi_ev>2021</kiadasi_ev>
+        <kiado>BBS-Info Kft.</kiado>
+        <szerzo>Nagy Róbert</szerzo>
     </konyv>
-    <konyv id="3" mufaj="informatika">
-        <cim nev="Excel haladóknak" />
-        <kiadas evjarat="2012" />
-        <kiado nev="BBS-INFO Kft." />
-        <szerzo nev="Bártfai Barnabás" />
+    <konyv id="3">
+        <cim>Hogyan írj extrém gyors programot: Bevezetés a CUDA programozásba</cim>
+        <kiadasi_ev>2020</kiadasi_ev>
+        <kiado>BBS-Info Kft.</kiado>
+        <szerzo>Fehér Krisztián</szerzo>
+        <szerzo>Bártfai Barnabás</szerzo>
     </konyv>
-</konyvek>
+</books>
