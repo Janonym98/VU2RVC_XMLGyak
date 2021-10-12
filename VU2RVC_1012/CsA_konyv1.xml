@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek>
+    <konyv>
+        <cim>Jani és Feri</cim>
+        <szerzo>Meg Győző</szerzo>
+        <szereplo>
+            <nev>Jani</nev>
+            <baratja>Feri</baratja>
+            <szuletett>1988</szuletett>
+            <jellemzes>nagy</jellemzes>
+        </szereplo>
+        <szereplo>
+            <nev>Feri</nev>
+            <szuletett>1989</szuletett>
+            <jellemzes>kicsi</jellemzes>
+        </szereplo>
+    </konyv>
+    <isbn>""</isbn>
+</konyvek>

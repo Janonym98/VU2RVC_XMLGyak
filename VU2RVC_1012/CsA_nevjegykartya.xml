@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+    <nevjegykartya id="1">
+        <nev>Csurgai Ádám János</nev>
+        <ceg>
+            <nev>Bread Fury Kft.</nev>
+            <cim>
+                <iranyitoszam>3530</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>János utca</utca>
+                <hazszam>30</hazszam>
+            </cim>
+            <telefonszam>+36301255667</telefonszam>
+            <weblap>https://letmegooglethat.com/?q=vanenet.hu</weblap>
+        </ceg>
+        <beosztas>CEO</beosztas>
+        <telefonszam>+36301122334</telefonszam>
+        <email>bread@gmail.com</email>
+    </nevjegykartya>
+    <nevjegykartya id="2">
+        <nev>Bac Ilus</nev>
+        <ceg>
+            <nev>Bread Fury Kft.</nev>
+            <cim>
+                <iranyitoszam>3530</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>János utca</utca>
+                <hazszam>30</hazszam>
+            </cim>
+            <telefonszam>+36301255668</telefonszam>
+            <weblap>https://letmegooglethat.com/?q=vanenet.hu</weblap>
+        </ceg>
+        <beosztas>titkárnő</beosztas>
+        <telefonszam>+36301122335</telefonszam>
+        <email>bread2@gmail.com</email>
+    </nevjegykartya>
+</nevjegykartyak>

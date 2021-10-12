@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+    <ora id="1" tipus="elmélet">
+        <targy>Mesterséges intelligencia</targy>
+        <idopont>
+            <nap>hétfő</nap>
+            <kezdes>14</kezdes>
+            <vege>17</vege>
+        </idopont> 
+        <helyszin>
+            <epulet>A1</epulet>
+            <terem>XXXII előadó</terem>
+        </helyszin>
+        <oktato>Dr. Dudás László</oktato>
+        <szak>Programtervező informatikus Bsc.</szak>
+    </ora>
+    <ora id="2" tipus="elmélet">
+        <targy>XML</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <kezdes>12</kezdes>
+            <vege>14</vege>
+        </idopont> 
+        <helyszin>
+            <epulet>A2</epulet>
+            <terem>1</terem>
+        </helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus Bsc.</szak>
+    </ora>
+    <ora id="3" tipus="gyakorlat">
+        <targy>XML</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <kezdes>14</kezdes>
+            <vege>16</vege>
+        </idopont> 
+        <helyszin>
+            <epulet>In</epulet>
+            <terem>103</terem>
+        </helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus Bsc.</szak>
+    </ora>
+    <ora id="4" tipus="gyakorlat">
+        <targy>Mesterséges intelligencia</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <kezdes>18</kezdes>
+            <vege>19</vege>
+        </idopont> 
+        <helyszin>
+            <epulet>In</epulet>
+            <terem>15</terem>
+        </helyszin>
+        <oktato>Dr. Dudás László</oktato>
+        <szak>Programtervező informatikus Bsc.</szak>
+    </ora>
+    <ora id="5" tipus="elmélet">
+        <targy>Vállalati információs rendszerek</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <kezdes>16</kezdes>
+            <vege>18</vege>
+        </idopont> 
+        <helyszin>
+            <epulet>In</epulet>
+            <terem>103</terem>
+        </helyszin>
+        <oktato>Dr. Sasvári Péter László</oktato>
+        <szak>Programtervező informatikus Bsc.</szak>
+    </ora>
+    <ora id="6" tipus="gyakorlat">
+        <targy>Vállalati információs rendszerek</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <kezdes>18</kezdes>
+            <vege>20</vege>
+        </idopont> 
+        <helyszin>
+            <epulet>In</epulet>
+            <terem>103</terem>
+        </helyszin>
+        <oktato>Dr. Sasvári Péter László</oktato>
+        <szak>Programtervező informatikus Bsc.</szak>
+    </ora>
+</orarend>
