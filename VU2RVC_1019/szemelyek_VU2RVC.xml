@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<szemelyek>
+    <szemely id="1">
+        <nev>Csurgai Ádám János</nev>
+        <kor>23</kor>
+        <varos>Miskolc</varos>
+    </szemely>
+    <szemely id="2">
+        <nev>Bac Ilus</nev>
+        <kor>26</kor>
+        <varos>Budapest</varos>
+    </szemely>
+    <szemely id="3">
+        <nev>Para Zita</nev>
+        <kor>22</kor>
+        <varos>Kecskemét</varos>
+    </szemely>
+</szemelyek>
