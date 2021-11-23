@@ -23,8 +23,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </p>
     </xsl:template>
 
-    <xsl:template match="id">
-        ID: <span style="color:green">
+    <xsl:template match="@id">
+        ID: <span style="color:black; font-size:32px">
     <xsl:value-of select="."/></span>
     <br />
     </xsl:template>
