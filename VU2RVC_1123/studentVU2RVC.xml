@@ -7,17 +7,20 @@
         <lastname>Csaló</lastname>
         <nickname>Anticheat</nickname>
         <age>23</age>
+        <salary>600000</salary>
     </student>
     <student id= "02">
         <firstname>Péter</firstname>
         <lastname>Kiss</lastname>
         <nickname>Petya</nickname>
         <age>35</age>
+        <salary>450000</salary>
     </student>
     <student id= "03">
         <firstname>János</firstname>
         <lastname>Harmatos</lastname>
         <nickname>Jani</nickname>
         <age>26</age>
+        <salary>500000</salary>
     </student>
 </class>
