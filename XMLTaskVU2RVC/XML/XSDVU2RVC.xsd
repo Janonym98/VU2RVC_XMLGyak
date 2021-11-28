@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="szobeli">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="tanulo" type="tanulo_type"/>
+                    <xs:element name="szobeli_erettsegi" type="szobeli_erettsegi_type"/>
+                    <xs:element name="tantargy" type="tantargy_type"/>
+                    <xs:element name="elnok" type="elnok_type"/>
+                    <xs:element name="tanar" type="tanar_type"/>
+                    <xs:element name="bizonyitvany" type="bizonyitvany_type"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="tanulo_type">
+        <xs:sequence>
+            <xs:element name="vezeteknev" type="xs:string"/>
+            <xs:element name="utonev" type="xs:string"/>
+            <xs:element name="szuletesi_ev" type="xs:integer"/>
+            <xs:element name="lakhely" type="xs:string"/>
+            <xs:element name="iskola" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:unsignedByte"/>
+    </xs:complexType>
+    <xs:complexType name="szobeli_erettsegi_type">
+        <xs:sequence>
+            <xs:element name="helyszin" type="xs:string"/>
+            <xs:element name="szint" type="xs:string"/>
+            <xs:element name="idopont" type="xs:date"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:unsignedByte"/>
+        <xs:attribute name="tanulo_ID" type="xs:unsignedByte"/>
+        <xs:attribute name="tantargy_ID" type="xs:unsignedByte"/>
+    </xs:complexType>
+    <xs:complexType name="tantargy_type">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string"/>
+            <xs:element name="tetel" type="xs:integer"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:unsignedByte"/>
+        <xs:attribute name="tanar_ID" type="xs:unsignedByte"/>
+    </xs:complexType>
+    <xs:complexType name="elnok_type">
+        <xs:sequence>
+            <xs:element name="vezeteknev" type="xs:string"/>
+            <xs:element name="utonev" type="xs:string"/>
+            <xs:element name="iskola" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:unsignedByte"/>
+        <xs:attribute name="szobeli_ID" type="xs:unsignedByte"/>
+    </xs:complexType>
+    <xs:complexType name="tanar_type">
+        <xs:sequence>
+            <xs:element name="vezeteknev" type="xs:string"/>
+            <xs:element name="utonev" type="xs:string"/>
+            <xs:element name="tanitott_targy" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:unsignedByte"/>
+    </xs:complexType>
+    <xs:complexType name="bizonyitvany_type">
+        <xs:sequence>
+            <xs:element name="szint" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:unsignedByte"/>
+        <xs:attribute name="tanulo_ID" type="xs:unsignedByte"/>
+    </xs:complexType>
+
+</xs:schema>

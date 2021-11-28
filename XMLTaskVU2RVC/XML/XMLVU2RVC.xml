@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<szobeli xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDVU2RVC.xsd">
+    <tanulo id="01">
+        <vezeteknev>Hurka</vezeteknev>
+        <utonev>Gyurka</utonev>
+        <szuletesi_ev>1999</szuletesi_ev>
+        <lakhely>Miskolc</lakhely>
+        <iskola>Bláthy</iskola>
+    </tanulo>
+    <tanulo id="02">
+        <vezeteknev>Bármi</vezeteknev>
+        <utonev>Áron</utonev>
+        <szuletesi_ev>1995</szuletesi_ev>
+        <lakhely>Miskolc</lakhely>
+        <iskola>Diósgyőri</iskola>
+    </tanulo>
+    <tanulo id="03">
+        <vezeteknev>Ebéd</vezeteknev>
+        <utonev>Elek</utonev>
+        <szuletesi_ev>2001</szuletesi_ev>
+        <lakhely>Miskolc</lakhely>
+        <iskola>Avasi</iskola>
+    </tanulo>
+    <szobeli_erettsegi id="01" tantargy_ID="01" tanulo_ID="01">
+        <helyszin>Bláthy</helyszin>
+        <szint>közép</szint>
+        <idopont>2016-06-15</idopont>
+    </szobeli_erettsegi>
+    <szobeli_erettsegi id="02" tantargy_ID="02" tanulo_ID="02">
+        <helyszin>Fényi</helyszin>
+        <szint>emelt</szint>
+        <idopont>2018-06-19</idopont>
+    </szobeli_erettsegi>
+    <szobeli_erettsegi id="03" tantargy_ID="03" tanulo_ID="03">
+        <helyszin>Földes</helyszin>
+        <szint>közép</szint>
+        <idopont>2012-07-01</idopont>
+    </szobeli_erettsegi>
+    <tantargy id="01" tanar_ID="01">
+        <nev>angol</nev>
+        <tetel>12</tetel>
+    </tantargy>
+    <tantargy id="02" tanar_ID="03">
+        <nev>Történelem</nev>
+        <tetel>6</tetel>
+    </tantargy>
+    <tantargy id="03" tanar_ID="02">
+        <nev>Informatika</nev>
+        <tetel>8</tetel>
+    </tantargy>
+    <elnok id="01" szobeli_ID="01">
+        <vezeteknev>Dil</vezeteknev>
+        <utonev>Emma</utonev>
+        <iskola>Zrínyi</iskola>
+    </elnok>
+    <elnok id="02" szobeli_ID="02">
+        <vezeteknev>Para</vezeteknev>
+        <utonev>Zita</utonev>
+        <iskola>Diósgyőri</iskola>
+    </elnok>
+    <elnok id="03" szobeli_ID="03">
+        <vezeteknev>Riz</vezeteknev>
+        <utonev>Ottó</utonev>
+        <iskola>Avasi</iskola>
+    </elnok>
+    <tanar id="01">
+        <vezeteknev>Kala</vezeteknev>
+        <utonev>Pál</utonev>
+        <tanitott_targy>angol</tanitott_targy>
+    </tanar>
+    <tanar id="02">
+        <vezeteknev>Major</vezeteknev>
+        <utonev>Anna</utonev>
+        <tanitott_targy>Informatika</tanitott_targy>
+    </tanar>
+    <tanar id="03">
+        <vezeteknev>Fejet</vezeteknev>
+        <utonev>Lenke</utonev>
+        <tanitott_targy>Történelem</tanitott_targy>
+    </tanar>
+    <bizonyitvany id="01" tanulo_ID="01">
+        <szint>közép</szint>
+    </bizonyitvany>
+    <bizonyitvany id="02" tanulo_ID="02">
+        <szint>emelt</szint>
+    </bizonyitvany>
+    <bizonyitvany id="03" tanulo_ID="03">
+        <szint>közép</szint>
+    </bizonyitvany>
+</szobeli>
