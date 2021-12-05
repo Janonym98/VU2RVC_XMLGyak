@@ -14,6 +14,41 @@
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
+        <xs:key name="tantargy_ID">
+        <xs:selector xpath=".//tantargy" />
+        <xs:field xpath="@id" />
+    </xs:key>
+    <xs:keyref name="tantargy_IDref" refer="tantargy_ID">
+        <xs:selector xpath=".//szobeli_erettsegi" />
+        <xs:field xpath="@tantargy_ID" />
+    </xs:keyref>
+
+    <xs:key name="tanulo_ID">
+        <xs:selector xpath=".//tanulo" />
+        <xs:field xpath="@id" />
+    </xs:key>
+    <xs:keyref name="tanulo_IDref" refer="tanulo_ID">
+        <xs:selector xpath=".//szobeli_erettsegi | .//bizonyitvany" />
+        <xs:field xpath="@tanulo_ID" />
+    </xs:keyref>
+
+    <xs:key name="tanar_ID">
+        <xs:selector xpath=".//tanar" />
+        <xs:field xpath="@id" />
+    </xs:key>
+    <xs:keyref name="tanar_IDref" refer="tanar_ID">
+        <xs:selector xpath=".//tantargy" />
+        <xs:field xpath="@tanar_ID" />
+    </xs:keyref>
+
+    <xs:key name="szobeli_erettsegi_ID">
+        <xs:selector xpath=".//szobeli_erettsegi" />
+        <xs:field xpath="@id" />
+    </xs:key>
+    <xs:keyref name="szobeli_erettsegi_IDref" refer="szobeli_erettsegi_ID">
+        <xs:selector xpath=".//elnok" />
+        <xs:field xpath="@szobeli_erettsegi_ID" />
+    </xs:keyref>
     </xs:element>
     <xs:complexType name="tanulo_type">
         <xs:sequence>
